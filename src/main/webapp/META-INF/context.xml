@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/apprest">
+    <Resource name="jdbc/dbmyapp" auth="Container" driverClassName="org.postgresql.Driver" 
+              maxActive="10" maxIdle="10" maxWait="40000" type="javax.sql.DataSource"
+              url = "jdbc:postgresql://localhost:5432/dbmyapp"
+              username="postgres" password="root">
+    </Resource>
+</Context>
